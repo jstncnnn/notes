@@ -1,13 +1,34 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dark-mode {
+  background-color: #404258;
+  height: 100vh;
+}
+
+.dark-mode h1 {
+  color: white;
+}
+
+.dark-mode .note {
+  background-color: #fff0ce;
+}
+
+.dark-mode .new-note {
+  background-color: #8ecddd;
+}
+
+.dark-mode .new-note textarea {
+  background-color: #8ecddd;
+}
+
+.dark-mode input[type="text"] {
+  background-color: #a9a9a9;
+}
+
+.dark-mode .delete-icon {
+  color: #404258;
 }
